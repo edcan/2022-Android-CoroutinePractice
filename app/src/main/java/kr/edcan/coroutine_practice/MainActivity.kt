@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
         btnStart = findViewById(R.id.btn_main_start)
         btnReset = findViewById(R.id.btn_main_reset)
 
-
         btnStart.setOnClickListener {
             Toast.makeText(this, "타이머 시작", Toast.LENGTH_SHORT).show()
 
